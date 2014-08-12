@@ -1,5 +1,5 @@
-zarafa-quickstart-sles-DE
-=================
+zarafa-quickstart-UCS-en
+=========================
 
 Quickstart Training for Zarafa based at Univention UCS virtual machine
 
