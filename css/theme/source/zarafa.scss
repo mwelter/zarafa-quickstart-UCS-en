@@ -1,0 +1,43 @@
+/**
+ * Zarafa theme based on Solarized Dark for reveal.js.
+ * Author: Felix Bartels
+ */
+
+
+// Default mixins and settings -----------------
+@import "../template/mixins";
+@import "../template/settings";
+// ---------------------------------------------
+
+
+
+// Include theme-specific fonts
+@font-face {
+	font-family: 'PT Sans';
+	src: url('../../lib/font/PT_Sans-Web-Regular.ttf') format('truetype');
+
+	font-weight: normal;
+	font-style: normal;
+}
+
+// TODO additional info for h2 headlines:
+// border-left: solid;
+// border-color: #0080bb
+
+html * {
+	color-profile: sRGB;
+	rendering-intent: auto;
+}
+
+
+
+// Override theme settings (see ../template/settings.scss)
+$mainFont: 'Myriad Pro', 'PT Sans', sans-serif;
+$headingFont: 'Myriad Pro', 'PT Sans', sans-serif;
+$backgroundColor: #ffffff;
+$mainColor: #000000;
+$headingColor: #000000;
+
+// Theme template ------------------------------
+@import "../template/theme";
+// ---------------------------------------------
