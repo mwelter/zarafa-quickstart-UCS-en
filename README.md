@@ -1,6 +1,6 @@
 zarafa-quickstart-sles-DE
 =================
 
-Quickstart Training für Zarafa basierend auf der Univention UCS Appliance
+Quickstart Training for Zarafa based at Univention UCS virtual machine
 
-Direkter Einstieg in das Online Training: http://mwelter.github.io/zarafa-quickstart-UCS-de
+Online Link for training: http://mwelter.github.io/zarafa-quickstart-UCS-en
